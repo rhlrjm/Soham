@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-marathi: 'Tiro Devanagari Hindi', 'Hind', serif;
+    --font-devanagari: 'Hind', sans-serif;
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Outfit', 'Hind', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #050810;
+    color: #e8eaf0;
+  }
+}
+
+.font-marathi {
+  font-family: 'Tiro Devanagari Hindi', 'Hind', serif;
+}
+
+.font-devanagari {
+  font-family: 'Hind', sans-serif;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-body {
+  font-family: 'Outfit', 'Hind', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #080c1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e294b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4b75;
+}
+
+@keyframes portalFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.portal-page-enter {
+  animation: portalFadeIn 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform, opacity;
+}
+
+

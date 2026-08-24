@@ -1,0 +1,6 @@
+{
+  "name": "Soaham - Spiritual & Meditation Portal",
+  "description": "A complete Marathi & English spiritual sanctuary for meditation, self-realization (सोऽहं), daily panchang, mantra chanting, saint teachings, and AdSense-ready content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
